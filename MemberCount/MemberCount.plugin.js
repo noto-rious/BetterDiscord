@@ -27,7 +27,9 @@
 	WScript.Quit();
 
 @else@*/
-
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
 var MemberCount = (() => {
 
 	/* Setup */
@@ -142,7 +144,7 @@ var MemberCount = (() => {
 							className: `${DiscordClasses.MemberList.membersGroup} container-2ax-kl`,
 							children: [
 								React.createElement('span', {
-									children: ['Members', ' — ', this.props.count]
+									children: ['Members', ' — ', numberWithCommas(this.props.count)]
 								})
 							]
 						})
@@ -261,7 +263,7 @@ var MemberCount = (() => {
 				inst.forceUpdate && inst.forceUpdate();
 				if (scroll) inst.handleOnScroll && inst.handleOnScroll();
 			}
-
+			
 			// async patchGuildContextMenu(state) {
 			// 	const Component = await ReactComponents.getComponent('GuildContextMenu', `.${ctxMenuClasses.menu}`, (m) => 
 			// 		m.prototype && m.prototype.constructor && m.prototype.constructor.displayName && m.prototype.constructor.displayName === 'GuildContextMenu'
