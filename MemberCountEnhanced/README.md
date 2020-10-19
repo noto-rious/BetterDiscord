@@ -3,7 +3,7 @@
 
 # My Contributions to this Plugin
  * Theme-friendly transparency
- * Placeholders for the nearest thousandth
+ * Thousandth separators
 
 | ![Before](https://i.imgur.com/aSFoosx.png) ![After](https://i.imgur.com/FjNpxSb.png) |
 |:--:| 
