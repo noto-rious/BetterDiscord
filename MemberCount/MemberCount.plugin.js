@@ -38,16 +38,16 @@ var MemberCount = (() => {
 			name: 'MemberCount',
 			authors: [
 				{
-					name: 'Arashiryuu',
-					discord_id: '238108500109033472',
-					github_username: 'Arashiryuu',
-					twitter_username: ''
+					name: 'Notorious',
+					discord_id: 'notorious#1337',
+					github_username: 'noto-rious',
+					twitter_username: 'vb6'
 				}
 			],
 			version: '2.1.22',
 			description: 'Displays a server\'s member-count at the top of the member-list, can be styled with the #MemberCount selector.',
-			github: 'https://github.com/Arashiryuu',
-			github_raw: 'https://raw.githubusercontent.com/Arashiryuu/crap/master/ToastIntegrated/MemberCount/MemberCount.plugin.js'
+			github: 'https://github.com/noto-rious/',
+			github_raw: 'https://raw.githubusercontent.com/noto-rious/BetterDiscord/main/MemberCount/MemberCount.plugin.js'
 		},
 		changelog: [
 			{
