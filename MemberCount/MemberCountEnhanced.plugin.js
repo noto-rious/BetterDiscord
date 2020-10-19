@@ -27,7 +27,6 @@
 	WScript.Quit();
 
 @else@*/
-//regex to add placeholders for the nearest thousandth
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
@@ -38,26 +37,26 @@ var MemberCount = (() => {
 	const config = {
 		main: 'index.js',
 		info: {
-			name: 'Member Count Enhanced',
+			name: 'MemberCountEnhanced',
 			authors: [
 				{
 					name: 'Notorious',
-					discord_id: 'notorious#1337',
+					discord_id: 'notorous#1337',
 					github_username: 'noto-rious',
-					twitter_username: 'vb6'
+					twitter_username: ''
 				}
 			],
-			version: '1.0.3',
-			description: 'Displays a server\'s member-count at the top of the member-list, can be styled with the #MemberCountEnhanced selector.',
-			github: 'https://github.com/noto-rious/',
-			github_raw: 'https://raw.githubusercontent.com/noto-rious/BetterDiscord/main/MemberCount/MemberCountEnhanced.plugin.js'
+			version: '2.1.22',
+			description: 'Displays a server\'s member-count at the top of the member-list, can be styled with the #MemberCount selector.',
+			github: 'https://github.com/noto-rious',
+			github_raw: 'https://github.com/noto-rious/BetterDiscord/blob/main/MemberCount/MemberCountEnhanced.plugin.js'
 		},
 		changelog: [
 			{
-				title: 'Member Count Enhanced',
-				type: 'Released',
+				title: 'Bugs Squashed!',
+				type: 'fixed',
 				items: [
-					'Thanks for downloading.'
+					'DateViewer compatibility fix.'
 				]
 			}
 		]
@@ -97,7 +96,7 @@ var MemberCount = (() => {
 			}
 
 			componentDidCatch(error, info) {
-				console.group(`%c[${config.info.name}]`, 'color: #3A71C1; font-weight: 700');
+				console.group(`%c[${config.info.name}]`, 'color: #3A71C1; font-weight: 700;');
 				console.error(error);
 				console.groupEnd();
 			}
@@ -168,7 +167,6 @@ var MemberCount = (() => {
 					cancel() { this.state.cancelled = true; },
 					restore() { this.state.cancelled = false; }
 				};
-				//transparency settings here, i also added handling for light them(lol)
 				this.css = `
 					.theme-dark #MemberCount {
 						--background-primary: rgba(9, 24, 51, .4);
@@ -265,7 +263,7 @@ var MemberCount = (() => {
 				inst.forceUpdate && inst.forceUpdate();
 				if (scroll) inst.handleOnScroll && inst.handleOnScroll();
 			}
-			
+
 			// async patchGuildContextMenu(state) {
 			// 	const Component = await ReactComponents.getComponent('GuildContextMenu', `.${ctxMenuClasses.menu}`, (m) => 
 			// 		m.prototype && m.prototype.constructor && m.prototype.constructor.displayName && m.prototype.constructor.displayName === 'GuildContextMenu'
