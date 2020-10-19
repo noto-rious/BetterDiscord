@@ -7,6 +7,3 @@
  
 # Original Plugin
  * [Arashiryuu/MemberCount](https://github.com/Arashiryuu/crap/tree/master/ToastIntegrated/MemberCount)
-
-# Original Plugin
- * [Arashiryuu/MemberCount](https://github.com/Arashiryuu/crap/tree/master/ToastIntegrated/MemberCount)
