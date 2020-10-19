@@ -1,5 +1,5 @@
 /**
- * @name MemberCountEnhanced
+ * @name Member Count Enhanced
  * @website https://github.com/noto-rious
  * @source https://github.com/noto-rious/BetterDiscord/blob/main/MemberCount/MemberCountEnhanced.plugin.js
  */
