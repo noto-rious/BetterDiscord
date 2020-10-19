@@ -38,7 +38,7 @@ var MemberCount = (() => {
 	const config = {
 		main: 'index.js',
 		info: {
-			name: 'MemberCount',
+			name: 'Member Count Enhanced',
 			authors: [
 				{
 					name: 'Notorious',
@@ -47,17 +47,17 @@ var MemberCount = (() => {
 					twitter_username: 'vb6'
 				}
 			],
-			version: '2.1.22',
+			version: '1.0.0',
 			description: 'Displays a server\'s member-count at the top of the member-list, can be styled with the #MemberCountEnhanced selector.',
 			github: 'https://github.com/noto-rious/',
 			github_raw: 'https://raw.githubusercontent.com/noto-rious/BetterDiscord/main/MemberCount/MemberCountEnhanced.plugin.js'
 		},
 		changelog: [
 			{
-				title: 'Bugs Squashed!',
-				type: 'fixed',
+				title: 'Member Count Enhanced',
+				type: 'Released',
 				items: [
-					'DateViewer compatibility fix.'
+					'Thanks for downloading.'
 				]
 			}
 		]
