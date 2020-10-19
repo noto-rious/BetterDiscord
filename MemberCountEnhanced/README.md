@@ -5,9 +5,9 @@
  * Theme-friendly transparency
  * Thousands separators
 
-| ![Before](https://i.imgur.com/aSFoosx.png) ![After](https://i.imgur.com/FjNpxSb.png) |
+| ![Before](https://i.imgur.com/aSFoosx.png "title") ![After](https://i.imgur.com/FjNpxSb.png) |
 |:--:| 
-| *Before and After comparison* | 
+| ***Before and After comparison*** | 
  
 # Original Plugin
  * [Arashiryuu/MemberCount](https://github.com/Arashiryuu/crap/tree/master/ToastIntegrated/MemberCount)
