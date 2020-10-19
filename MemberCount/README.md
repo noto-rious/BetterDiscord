@@ -4,4 +4,7 @@
 # My Contributions to this Plugin
  * Theme-friendly transparency
  * Placeholders for the nearest thousandth
+ 
+# Original Plugin
+ * [Arashiryuu/MemberCount](https://github.com/Arashiryuu/crap/tree/master/ToastIntegrated/MemberCount)
 
