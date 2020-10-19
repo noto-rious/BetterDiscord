@@ -1,4 +1,4 @@
-# MemberCount
+# Member Count Enhanced
 ### Displays a server's total count of members at the top of the member-list.
 
 # My Contributions to this Plugin
