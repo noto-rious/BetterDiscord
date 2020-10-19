@@ -1,7 +1,7 @@
 /**
  * @name MemberCountEnhanced
  * @website https://github.com/noto-rious
- * @source https://github.com/noto-rious/BetterDiscord/blob/main/MemberCount/MemberCountEnhanced.plugin.js
+ * @source https://github.com/noto-rious/BetterDiscord/blob/main/MemberCountEnhanced/MemberCountEnhanced.plugin.js
  */
 
 /*@cc_on
@@ -49,7 +49,7 @@ var MemberCount = (() => {
 			version: '2.1.22',
 			description: 'Displays a server\'s member-count at the top of the member-list, can be styled with the #MemberCount selector.',
 			github: 'https://github.com/noto-rious',
-			github_raw: 'https://github.com/noto-rious/BetterDiscord/blob/main/MemberCount/MemberCountEnhanced.plugin.js'
+			github_raw: 'https://github.com/noto-rious/BetterDiscord/blob/main/MemberCountEnhanced/MemberCountEnhanced.plugin.js'
 		},
 		changelog: [
 			{
