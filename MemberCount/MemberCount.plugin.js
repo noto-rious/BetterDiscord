@@ -1,7 +1,7 @@
 /**
- * @name MemberCount
- * @website https://github.com/Arashiryuu
- * @source https://github.com/Arashiryuu/crap/blob/master/ToastIntegrated/MemberCount/MemberCount.plugin.js
+ * @name MemberCountEnhanced
+ * @website https://github.com/noto-rious
+ * @source https://github.com/noto-rious/BetterDiscord/blob/main/MemberCount/MemberCountEnhanced.plugin.js
  */
 
 /*@cc_on
@@ -27,6 +27,7 @@
 	WScript.Quit();
 
 @else@*/
+//regex to add placeholders for the nearest thousandth
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
@@ -47,9 +48,9 @@ var MemberCount = (() => {
 				}
 			],
 			version: '2.1.22',
-			description: 'Displays a server\'s member-count at the top of the member-list, can be styled with the #MemberCount selector.',
+			description: 'Displays a server\'s member-count at the top of the member-list, can be styled with the #MemberCountEnhanced selector.',
 			github: 'https://github.com/noto-rious/',
-			github_raw: 'https://raw.githubusercontent.com/noto-rious/BetterDiscord/main/MemberCount/MemberCount.plugin.js'
+			github_raw: 'https://raw.githubusercontent.com/noto-rious/BetterDiscord/main/MemberCount/MemberCountEnhanced.plugin.js'
 		},
 		changelog: [
 			{
@@ -167,6 +168,7 @@ var MemberCount = (() => {
 					cancel() { this.state.cancelled = true; },
 					restore() { this.state.cancelled = false; }
 				};
+				//transparency settings here, i also added handling for light them(lol)
 				this.css = `
 					.theme-dark #MemberCount {
 						--background-primary: rgba(9, 24, 51, .4);
