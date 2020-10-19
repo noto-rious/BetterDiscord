@@ -3,7 +3,7 @@
 
 # My Contributions to this Plugin
  * Theme-friendly transparency
- * Thousandth separators
+ * Thousands separators
 
 | ![Before](https://i.imgur.com/aSFoosx.png) ![After](https://i.imgur.com/FjNpxSb.png) |
 |:--:| 
