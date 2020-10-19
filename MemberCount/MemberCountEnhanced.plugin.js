@@ -47,7 +47,7 @@ var MemberCount = (() => {
 					twitter_username: 'vb6'
 				}
 			],
-			version: '1.0.0',
+			version: '1.0.1',
 			description: 'Displays a server\'s member-count at the top of the member-list, can be styled with the #MemberCountEnhanced selector.',
 			github: 'https://github.com/noto-rious/',
 			github_raw: 'https://raw.githubusercontent.com/noto-rious/BetterDiscord/main/MemberCount/MemberCountEnhanced.plugin.js'
